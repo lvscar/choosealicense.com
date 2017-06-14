@@ -4,4 +4,6 @@ services:
     build: .
     image: choosealicense:latest
     ports:
-    - "4000:4000"
+      - "4000:4000"
+    volumes:
+      - ./index.html:/app/index.html
