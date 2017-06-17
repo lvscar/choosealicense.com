@@ -3,17 +3,19 @@ FROM ruby:2.4.1
 
 RUN apt-get update && apt-get install -y \
   build-essential  \
-  nodejs  
+  nodejs
 
-COPY Gemfile* /tmp/
-WORKDIR /tmp
+ENV LANG C.UTF-8
+ENV app /app
+ENV gem /ruby-gem
+
+RUN mkdir $gem
+COPY Gemfile* $gem
+WORKDIR $gem
 
 RUN bundle config mirror.https://rubygems.org https://gems.ruby-china.org
 RUN bundle install
 
-ENV LANG C.UTF-8
-
-ENV app /app
 RUN mkdir $app
 WORKDIR $app
 ADD . $app
