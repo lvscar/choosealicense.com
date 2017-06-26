@@ -6,8 +6,8 @@ RUN apt-get update && apt-get install -y \
   nodejs
 
 ENV LANG C.UTF-8
-ENV app /app
-ENV gem /ruby-gem
+ENV app /app/
+ENV gem /ruby-gem/
 
 RUN mkdir $gem
 COPY Gemfile* $gem
