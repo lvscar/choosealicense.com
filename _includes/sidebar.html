@@ -9,7 +9,7 @@
     </p>
     {% if page.note %}
     <p class="note">
-      <strong>Note: </strong> {{ page.note | markdownify | remove: '<p>' | remove: '</p>' }}
+      <strong>注意: </strong> {{ page.note | markdownify | remove: '<p>' | remove: '</p>' }}
     </p>
     {% endif %}
     {% assign xgpl = false %}

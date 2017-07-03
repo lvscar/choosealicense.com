@@ -5,7 +5,7 @@ source: https://opensource.org/licenses/MIT
 featured: true
 hidden: false
 
-description: 一份简短宽松的许可证，仅要求保留版权信息和许可提示。采用这份许可证的作品，修改，各种宽泛意义上的创作可以采用和MIT许可证不同的条款进行分发并且不要求附带源码。
+description: 一份简短宽容的许可证，仅要求保留版权信息和许可提示。采用这份许可证的作品，修改，各种宽泛意义上的创作可以采用和MIT许可证不同的条款进行分发并且不要求附带源码。
 
 how: 创建一个文本文件(通常命名为 LICENSE 或 LICENSE.txt ) 存放于你的软件源码根目录，然后复制许可证文本到这个文件中。用当前的公元年数替换其中的 [year] 部分，并用版权所有人的名字替换其中的 [fullname] 部分。
 
