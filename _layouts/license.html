@@ -20,7 +20,10 @@
                 <tr>
                 {% assign types = "permissions|conditions|limitations" | split: "|" %}
                 {% for type in types %}
-                  <th class="label">{{ type | capitalize }}</th>
+                <th class="label">
+                  {% assign title = site.data.rules-title[type]  %}
+                  {{title.chinese}}
+                </th>
                 {% endfor %}
                 </tr>
                 <tr>
