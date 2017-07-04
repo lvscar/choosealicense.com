@@ -11,16 +11,16 @@ permissions:
 - description: 这份软件能被私人使用和修改。
   label: 私人使用
   tag: private-use
-- description: This license provides an express grant of patent rights from contributors.
-  label: Patent use
+- description: 明确表明包含从贡献者授予的专利权。
+  label: 专利使用
   tag: patent-use
 
 conditions:
 - description: 一份版权和许可提示必须被包括进软件里。
-  label: 许可证和版权提示。
+  label: 许可证和版权提示
   tag: include-copyright
-- description: Changes made to the code must be documented.
-  label: State changes
+- description: 对代码的变更必须陈述。
+  label: 变更陈述
   tag: document-changes
 - description: Source code must be made available when the software is distributed.
   label: Disclose source
@@ -39,8 +39,8 @@ conditions:
   tag: same-license--library
 
 limitations:
-- description: This license explicitly states that it does NOT grant trademark rights, even though licenses without such a statement probably do not grant any implicit trademark rights.
-  label: Trademark use
+- description: 这份许可证明确申明不包含对商标权的授予, 即使没有申明的许可证很可能也不会隐式授予商标权。
+  label: 商标使用
   tag: trademark-use
 - description: 这份许可证包含对责任的限制。
   label: 责任
