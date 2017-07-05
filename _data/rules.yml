@@ -22,14 +22,14 @@ conditions:
 - description: 对代码的变更必须陈述。
   label: 变更陈述
   tag: document-changes
-- description: Source code must be made available when the software is distributed.
-  label: Disclose source
+- description: 在软件发布时其源代码也必须能被公开获取。
+  label: 源码公开
   tag: disclose-source
 - description: Users who interact with the software via network are given the right to receive a copy of the source code.
   label: Network use is distribution
   tag: network-use-disclose
-- description: Modifications must be released under the same license when distributing the software. In some cases a similar or related license may be used.
-  label: Same license
+- description: 当发行修改过的软件时，修改必须和原作采用相同的许可证。某些情况下有关联的许可证也能被使用。   
+  label: 相同许可证
   tag: same-license
 - description: Modifications of existing files must be released under the same license when distributing the software. In some cases a similar or related license may be used.
   label: Same license (file)
