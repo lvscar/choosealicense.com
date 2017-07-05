@@ -14,7 +14,7 @@
     {% endif %}
     {% assign xgpl = false %}
     {% if page.spdx-id contains 'GPL' %}{% assign xgpl = true %}{% endif %}
-    <p class="note"><strong>可选: </strong> 添加 <strong><code>{{ page.spdx-id }}</code>{% if xgpl %}+{% endif %}</strong>{% if xgpl %} (or <strong><code>{{ page.spdx-id }}</code></strong> to disallow future versions){% endif %} 到你项目的软件包描述中,  如果适用(例如在 <a href="https://docs.npmjs.com/files/package.json#license">Node.js</a>, <a href="http://guides.rubygems.org/specification-reference/#license=">Ruby</a>, 和 <a href="http://doc.crates.io/manifest.html#package-metadata">Rust</a>包管理系统中). 许可证信息将会被显示在软件包目录列表里。</p>
+    <p class="note"><strong>可选: </strong> 添加 <strong><code>{{ page.spdx-id }}</code>{% if xgpl %}+{% endif %}</strong>{% if xgpl %} (或 <strong><code>{{ page.spdx-id }}</code></strong> 以专门指定当前版本){% endif %} 到你项目的软件包描述中,  如果适用(例如在 <a href="https://docs.npmjs.com/files/package.json#license">Node.js</a>, <a href="http://guides.rubygems.org/specification-reference/#license=">Ruby</a>, 和 <a href="http://doc.crates.io/manifest.html#package-metadata">Rust</a>包管理系统中)。许可证信息将会被显示在软件包目录列表里。</p>
   </div>
 
   {% if page.source %}
