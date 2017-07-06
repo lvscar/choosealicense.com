@@ -22,20 +22,20 @@ conditions:
 - description: 对代码的变更必须陈述。
   label: 变更陈述
   tag: document-changes
-- description: 在软件发布时其源代码也必须能被公开获取。
+- description: 在软件分发时其源代码也必须能被公开获取。
   label: 源码公开
   tag: disclose-source
-- description: Users who interact with the software via network are given the right to receive a copy of the source code.
-  label: Network use is distribution
+- description: 通过网络使用服务端程序的用户有权获取源码。
+  label: 网络使用视为分发
   tag: network-use-disclose
-- description: 当发行修改过的软件时，修改必须和原作采用相同的许可证。某些情况下有关联的许可证也能被使用。   
+- description: 当发行修改过的软件时，修改必须和原作采用相同的许可证。某些情况下相似或关联的许可证也能被使用。   
   label: 相同许可证
   tag: same-license
-- description: Modifications of existing files must be released under the same license when distributing the software. In some cases a similar or related license may be used.
-  label: Same license (file)
+- description: 当发行修改过的软件时，对修改过的文件必须和原作采用相同的许可证。某些情况下相似或关联的许可证也能被使用。   
+  label: 相同许可证 (针对文件)
   tag: same-license--file
-- description: Modifications must be released under the same license when distributing the software. In some cases a similar or related license may be used, or this condition may not apply to works that use the software as a library.
-  label: Same license (library)
+- description: 当发行修改过的软件时，修改必须和原作采用相同的许可证。某些情况下相似或关联的许可证也能被使用。如果把该软件当作库进行调用，调用该库的软件不受该条件限制。
+  label: 相同许可证 (针对库)
   tag: same-license--library
 
 limitations:
@@ -45,8 +45,8 @@ limitations:
 - description: 这份许可证包含对责任的限制。
   label: 责任
   tag: liability
-- description: This license explicitly states that it does NOT grant any rights in the patents of contributors.
-  label: Patent use
+- description: 这份许可证明确申明不包含对任何专利权的授予。
+  label: 专利使用
   tag: patent-use
 - description: 这份许可证明确的声明了不提供任何形式的保证。
   label: 保证
