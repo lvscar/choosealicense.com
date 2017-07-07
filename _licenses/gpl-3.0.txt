@@ -1,5 +1,5 @@
 ---
-title: GNU General Public License v3.0
+title: GNU General Public 许可证 v3.0版
 spdx-id: GPL-3.0
 nickname: GNU GPLv3许可证
 redirect_from: /licenses/gpl-v3/
@@ -7,9 +7,9 @@ source: http://www.gnu.org/licenses/gpl-3.0.txt
 featured: true
 hidden: false
 
-description: 一份激烈的反版权许可证，其中许可的权利以作品，修改，各种宽泛意义上的创作都必须把完整源码公开并采用同样的许可证许可为条件。版权信息和许可提示必须保留。通过这份许可证，贡献者表达了对专利权的授予。
+description: 一份激烈的反版权许可证，其中许可的权利以作品，修改，各种宽泛意义上的创作必须把完整源码公开并采用同样的许可证许可为条件。版权信息和许可提示必须保留。通过这份许可证，贡献者表达了对专利权的授予。
 
-how: 创建一个文本文件(通常命名为 LICENSE 或 LICENSE.txt ) 存放于你的软件源码根目录，然后复制许可证文本到这个文件中。
+how: 创建一个文本文件(通常命名为 LICENSE 或 LICENSE.txt ) 存放于你的软件源码根目录，然后复制许可证文本内容于其中。
 
 note: 自由软件基金会推荐把一段样板提示放到每一个源码文件的顶部。你能在许可证最后的部分(How to Apply These Terms to Your New Programs)找到这份样板提示。
 

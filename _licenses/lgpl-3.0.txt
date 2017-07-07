@@ -1,16 +1,16 @@
 ---
-title: GNU Lesser General Public License v3.0
+title: GNU Lesser General Public 许可证 v3.0版
 spdx-id: LGPL-3.0
-nickname: GNU LGPLv3
+nickname: GNU LGPLv3许可证
 redirect_from: /licenses/lgpl-v3/
 source: http://www.gnu.org/licenses/lgpl-3.0.txt
 hidden: false
 
-description: Permissions of this copyleft license are conditioned on making available complete source code of licensed works and modifications under the same license or the GNU GPLv3. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work through interfaces provided by the licensed work may be distributed under different terms and without source code for the larger work.
+description: 这份许可证许可的权利以把完整源码公开并采用相同的许可证或GNU GPLv3许可证许可为条件。版权信息和许可提示必须保留。通过这份许可证，贡献者表达了对专利权的授予。然而 , 如果一个更大范围的作品以接口的方式使用以这个许可证许可的作品，这个作品可以用其他许可条件进行分发并且不要求公开源代码。
 
-how: This license is an additional set of permissions to the <a href="/licenses/gpl-3.0">GNU GPLv3</a> license. Follow the instructions to apply the GNU GPLv3. Then add a separate file named COPYING.LESSER in the root of your source code and copy the text.
+how: 这份许可证是对<a href="/licenses/gpl-3.0">GNU GPLv3</a>许可证的补充。先按照说明应用GNU GPLv3许可证,然后添加一个命名为 COPYING.LESSER 的文件于你的软件源码根目录，复制许可证文本内容于其中。
 
-note: The Free Software Foundation recommends taking the additional step of adding a boilerplate notice to the top of each file. The boilerplate can be found at the end of the <a href="/licenses/gpl-3.0">GNU GPLv3 license</a>. Insert the word “Lesser” before “General” in all three places in the boilerplate notice to make sure that you refer to the GNU LGPLv3 and not the GNU GPLv3.
+note: 自由软件基金会推荐把一段样板提示放到每一个源码文件的顶部. 你能在<a href="/licenses/gpl-3.0">GNU GPLv3 许可证</a>的最后的部分(How to Apply These Terms to Your New Programs)找到这份样板提示。在样板提示里的每一个"General"一词前添加"Lesser"以表示你指的是GNU LGPLv3许可证而不是GNU GPLv3许可证。
 
 using:
 

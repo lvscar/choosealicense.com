@@ -21,7 +21,10 @@
         <tr>
         {% assign types = "permissions|conditions|limitations" | split: "|" %}
         {% for type in types %}
-          <th class="label">{{ type | capitalize }}</th>
+        <th class="label">
+                  {% assign title = site.data.rules-title[type]  %}
+                  {{title.chinese}}
+        </th>
         {% endfor %}
         </tr>
         <tr>
@@ -43,7 +46,7 @@
           {% endfor %}
         </tr>
       </table>
-      <p class="small"><a href="{{ license.url }}">View full {{ license.title }} »</a></p>
+      <p class="small"><a href="{{ license.url }}">查看完整的 {{ license.title }} »</a></p>
   </div>
 </div>
 {% endfor %}
