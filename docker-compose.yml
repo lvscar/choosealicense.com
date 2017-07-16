@@ -7,3 +7,7 @@ services:
       - "4000:4000"
     volumes:
       - ./index.html:/app/index.html
+    restart: always
+
+
+
